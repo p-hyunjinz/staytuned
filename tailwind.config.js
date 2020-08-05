@@ -1,5 +1,8 @@
 module.exports = {
   theme: {
+    fontFamily: {
+      titleCustom: ["GFS Didot", 'serif'],
+    },
     extend: {
       colors: {
         "accent-1": "#FAFAFA",
@@ -13,6 +16,7 @@ module.exports = {
       },
       letterSpacing: {
         tighter: "-.04em",
+        widest: ".3em"
       },
       lineHeight: {
         tight: 1.2,
