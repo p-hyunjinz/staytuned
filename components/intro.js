@@ -8,7 +8,7 @@ export default function Intro() {
         <div style={{ textAlign: "right" }}>
           staytuned 블로그에 오신 것을 환영합니다!{" "}
           <a
-            href="https://staytuned.kr/"
+            href="http://staytuned.kr/"
             className="underline hover:text-success duration-200 transition-colors"
           >
             <div>몰 이동하기</div>
