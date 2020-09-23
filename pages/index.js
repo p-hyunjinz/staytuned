@@ -13,7 +13,7 @@ export default function Index({ allPosts, preview }) {
     <>
       <Layout preview={preview}>
         <Head>
-          <title>Staytune Blog</title>
+          <title>Staytuned Blog</title>
         </Head>
         <Container>
           <Intro />
