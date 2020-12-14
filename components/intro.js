@@ -1,8 +1,20 @@
+import Image from "next/image";
+
 export default function Intro() {
+  const WIDTH = 500;
+  const HEIGHT = (WIDTH * 185) / 828;
+
   return (
     <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
       <h1 className="tracking-widest font-titleCustom text-6xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
-        staytuned
+        <Image
+          src="/st_logo.png"
+          alt="logo"
+          layout="intrinsic"
+          width={WIDTH}
+          height={HEIGHT}
+          objectPosition="left top"
+        />
       </h1>
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
         <div style={{ textAlign: "right" }}>
